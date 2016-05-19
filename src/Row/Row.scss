@@ -1,0 +1,15 @@
+@import '../variables.scss';
+
+.Row {
+    height: 40px;
+    line-height: 40px;
+    background-color: $table-row-background-color;
+
+    &:nth-child(even) {
+        background-color: $table-row-even-background-color;
+    }
+
+    &:hover {
+        background-color: $table-row-hover-color;
+    }
+}

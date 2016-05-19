@@ -1,0 +1,10 @@
+@import '../variables.scss';
+
+.Grid {
+  background: $white;
+  display: table;
+  border-spacing: 0;
+  width: 100%;
+  position: relative;
+  table-layout: fixed;
+}
