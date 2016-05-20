@@ -1,1 +1,1 @@
-web: npm run dist && webpack && node server.js
+web: node server.js

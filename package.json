@@ -17,8 +17,8 @@
     "version:major": "npm version major -m \"v%s\"",
     "version:minor": "npm version minor -m \"v%s\"",
     "version:patch": "npm version patch -m \"v%s\"",
-    "postinstall": "npm run dist && webpack",
-    "public": "npm run dist && webpack && node server.js"
+    "postinstall": "npm run public",
+    "public": "npm run dist && webpack"
   },
   "author": "Oriol Puig <oriol.puig90@gmail.com>",
   "license": "ISC",
@@ -82,6 +82,7 @@
     "express": "^4.13.4",
     "react": "^15.0.2",
     "react-dom": "^15.0.2",
-    "webpack": "^1.13.1"
+    "webpack": "^1.13.1",
+    "webpack-merge": "^0.12.0"
   }
 }
