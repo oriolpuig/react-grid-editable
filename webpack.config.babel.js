@@ -16,3 +16,6 @@ if (TARGET === 'dist:normal') {
 if (TARGET === 'dist:min') {
   module.exports = require('./webpack/dist.minified.config').default;
 }
+if (TARGET === 'public'){
+  module.exports = require('./webpack/public.config').default;
+}

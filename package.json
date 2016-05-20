@@ -16,7 +16,9 @@
     "preversion": "npm run test:all && npm run dist && git commit --allow-empty -am \"Update dist\"",
     "version:major": "npm version major -m \"v%s\"",
     "version:minor": "npm version minor -m \"v%s\"",
-    "version:patch": "npm version patch -m \"v%s\""
+    "version:patch": "npm version patch -m \"v%s\"",
+    "postinstall": "webpack -p",
+    "public": "npm run dist && webpack && node server.js"
   },
   "author": "Oriol Puig <oriol.puig90@gmail.com>",
   "license": "ISC",
@@ -72,6 +74,7 @@
   },
   "dependencies": {
     "classnames": "^2.2.5",
+    "express": "^4.13.4",
     "react": "^15.0.2",
     "react-dom": "^15.0.2"
   }
