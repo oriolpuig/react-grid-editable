@@ -79,9 +79,15 @@
     "babel-preset-react": "^6.5.0",
     "babel-preset-stage-1": "^6.5.0",
     "classnames": "^2.2.5",
+    "css-loader": "^0.23.1",
     "express": "^4.13.4",
+    "postcss": "^5.0.21",
+    "postcss-discard-comments": "^2.0.4",
+    "postcss-import": "^8.1.2",
+    "postcss-loader": "^0.9.1",
     "react": "^15.0.2",
     "react-dom": "^15.0.2",
+    "style-loader": "^0.13.1",
     "webpack": "^1.13.1",
     "webpack-merge": "^0.12.0"
   }
