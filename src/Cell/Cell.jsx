@@ -17,9 +17,9 @@ class Cell extends Component {
     };
 
     this.handleBlur = this.handleBlur.bind(this);
-    // this.handleChange = this.handleChange.bind(this);
+    this.handleChange = this.handleChange.bind(this);
     this.handleEditCell = this.handleEditCell.bind(this);
-    // this.handleKeyDown = this.handleKeyDown.bind(this);
+    this.handleKeyDown = this.handleKeyDown.bind(this);
   }
 
   componentWillMount() {
